@@ -76,9 +76,15 @@ const puppeteer = require('puppeteer');
                 })
             )
         }))
+    // console.log(data);
 
-    console.log(data);
+    // Write data on json files
+    data.forEach( (collection, i) => {
+        const collectionName = toGet[i]
+        const json = JSON.stringify(collection, null, 2)
+        var fs = require('fs');
+        fs.writeFileSync(__dirname + `/database/algos/${collectionName}.json`, json, 'utf8');
+    })
 
-    // console.log(PLL_titles);
     await browser.close();
 })();

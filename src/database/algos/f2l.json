@@ -1,0 +1,539 @@
+[
+  {
+    "name": "F2L 1",
+    "algos": [
+      {
+        "alg": "R' F R F'",
+        "votes": 323
+      },
+      {
+        "alg": "U2 R U2 R'",
+        "votes": 81
+      }
+    ]
+  },
+  {
+    "name": "F2L 2",
+    "algos": [
+      {
+        "alg": "y U' L' U L",
+        "votes": 160
+      },
+      {
+        "alg": "F R' F' R",
+        "votes": 123
+      }
+    ]
+  },
+  {
+    "name": "F2L 3",
+    "algos": [
+      {
+        "alg": "y L' U' L",
+        "votes": 137
+      },
+      {
+        "alg": "F' U' F",
+        "votes": 97
+      },
+      {
+        "alg": "y' R' U' R",
+        "votes": 64
+      }
+    ]
+  },
+  {
+    "name": "F2L 4",
+    "algos": [
+      {
+        "alg": "R U R'",
+        "votes": 171
+      },
+      {
+        "alg": "y2 L U L'",
+        "votes": 18
+      }
+    ]
+  },
+  {
+    "name": "F2L 5",
+    "algos": [
+      {
+        "alg": "U' R U R' U2 R U' R'",
+        "votes": 160
+      },
+      {
+        "alg": "U' R U R' U' R U2 R'",
+        "votes": 30
+      }
+    ]
+  },
+  {
+    "name": "F2L 6",
+    "algos": [
+      {
+        "alg": "d R' U' R U2 R' U R",
+        "votes": 107
+      },
+      {
+        "alg": "y U L' U' L U2 L' U L",
+        "votes": 34
+      }
+    ]
+  },
+  {
+    "name": "F2L 7",
+    "algos": [
+      {
+        "alg": "U' R U2 R' U2 R U' R'",
+        "votes": 109
+      },
+      {
+        "alg": "U' R U2 R' U' R U2 R'",
+        "votes": 14
+      }
+    ]
+  },
+  {
+    "name": "F2L 8",
+    "algos": [
+      {
+        "alg": "d R' U2 R U2 R' U R",
+        "votes": 82
+      },
+      {
+        "alg": "r' U2 R2 U R2’ U r",
+        "votes": 26
+      }
+    ]
+  },
+  {
+    "name": "F2L 9",
+    "algos": [
+      {
+        "alg": "U' R U' R' U F' U' F",
+        "votes": 78
+      },
+      {
+        "alg": "U' R U' R' d R' U' R",
+        "votes": 30
+      }
+    ]
+  },
+  {
+    "name": "F2L 10",
+    "algos": [
+      {
+        "alg": "U' R U R' U R U R'",
+        "votes": 96
+      },
+      {
+        "alg": "U y' R' U R U' y R U R'",
+        "votes": 14
+      }
+    ]
+  },
+  {
+    "name": "F2L 11",
+    "algos": [
+      {
+        "alg": "U' R U2 R' U F' U' F",
+        "votes": 93
+      },
+      {
+        "alg": "U' R U2 R' d R' U' R",
+        "votes": 41
+      }
+    ]
+  },
+  {
+    "name": "F2L 12",
+    "algos": [
+      {
+        "alg": "R U' R' U R U' R' U2 R U' R'",
+        "votes": 79
+      },
+      {
+        "alg": "R' U2 R2 U R2 U R",
+        "votes": 45
+      }
+    ]
+  },
+  {
+    "name": "F2L 13",
+    "algos": [
+      {
+        "alg": "y' U R' U R U' R' U' R",
+        "votes": 86
+      },
+      {
+        "alg": "d R' U R U' R' U' R",
+        "votes": 34
+      }
+    ]
+  },
+  {
+    "name": "F2L 14",
+    "algos": [
+      {
+        "alg": "U' R U' R' U R U R'",
+        "votes": 93
+      },
+      {
+        "alg": "y L' U2 L U2 F U2 F' U F U' F'",
+        "votes": 4
+      }
+    ]
+  },
+  {
+    "name": "F2L 15",
+    "algos": [
+      {
+        "alg": "R U R' U2 R U' R' U R U' R'",
+        "votes": 94
+      },
+      {
+        "alg": "y L' U L U2 y' R U R'",
+        "votes": 19
+      }
+    ]
+  },
+  {
+    "name": "F2L 16",
+    "algos": [
+      {
+        "alg": "R U' R' U2 F' U' F",
+        "votes": 67
+      },
+      {
+        "alg": "R U' R' U2 y L' U' L",
+        "votes": 23
+      }
+    ]
+  },
+  {
+    "name": "F2L 17",
+    "algos": [
+      {
+        "alg": "R U2 R' U' R U R'",
+        "votes": 100
+      },
+      {
+        "alg": "y L F' L' F L' U L U' L' U L",
+        "votes": 2
+      }
+    ]
+  },
+  {
+    "name": "F2L 18",
+    "algos": [
+      {
+        "alg": "y' R' U2 R U R' U' R",
+        "votes": 71
+      },
+      {
+        "alg": "y L' U2 L U L' U' L",
+        "votes": 25
+      }
+    ]
+  },
+  {
+    "name": "F2L 19",
+    "algos": [
+      {
+        "alg": "U R U2 R' U R U' R'",
+        "votes": 65
+      },
+      {
+        "alg": "U R U2 R2 F R F'",
+        "votes": 10
+      }
+    ]
+  },
+  {
+    "name": "F2L 20",
+    "algos": [
+      {
+        "alg": "y' U' R' U2 R U' R' U R",
+        "votes": 46
+      },
+      {
+        "alg": "y U' L' U2 L U' L' U L",
+        "votes": 19
+      }
+    ]
+  },
+  {
+    "name": "F2L 21",
+    "algos": [
+      {
+        "alg": "U2 R U R' U R U' R'",
+        "votes": 47
+      },
+      {
+        "alg": "R U' R' U2 R U R'",
+        "votes": 38
+      }
+    ]
+  },
+  {
+    "name": "F2L 22",
+    "algos": [
+      {
+        "alg": "F' L' U2 L F",
+        "votes": 44
+      },
+      {
+        "alg": "y' U2 R' U' R U' R' U R",
+        "votes": 17
+      }
+    ]
+  },
+  {
+    "name": "F2L 23",
+    "algos": [
+      {
+        "alg": "R U R' U2 R U R' U' R U R'",
+        "votes": 78
+      },
+      {
+        "alg": "U R U' R' U' R U' R' U R U' R'",
+        "votes": 22
+      }
+    ]
+  },
+  {
+    "name": "F2L 24",
+    "algos": [
+      {
+        "alg": "F U R U' R' F' R U' R'",
+        "votes": 79
+      },
+      {
+        "alg": "U' R U R2 F R F' R U' R'",
+        "votes": 12
+      }
+    ]
+  },
+  {
+    "name": "F2L 25",
+    "algos": [
+      {
+        "alg": "R' F' R U R U' R' F",
+        "votes": 53
+      },
+      {
+        "alg": "U' R' F R F' R U R'",
+        "votes": 20
+      }
+    ]
+  },
+  {
+    "name": "F2L 26",
+    "algos": [
+      {
+        "alg": "U R U' R' U' F' U F",
+        "votes": 47
+      },
+      {
+        "alg": "U R U' R' F R' F' R",
+        "votes": 22
+      }
+    ]
+  },
+  {
+    "name": "F2L 27",
+    "algos": [
+      {
+        "alg": "R U' R' U R U' R'",
+        "votes": 53
+      },
+      {
+        "alg": "R U' R2 F R F'",
+        "votes": 10
+      }
+    ]
+  },
+  {
+    "name": "F2L 28",
+    "algos": [
+      {
+        "alg": "y L' U L U' L' U L",
+        "votes": 33
+      },
+      {
+        "alg": "R U R' U' F R' F' R",
+        "votes": 31
+      }
+    ]
+  },
+  {
+    "name": "F2L 29",
+    "algos": [
+      {
+        "alg": "R' F R F' R' F R F'",
+        "votes": 39
+      },
+      {
+        "alg": "y L' U' L U L' U' L",
+        "votes": 21
+      }
+    ]
+  },
+  {
+    "name": "F2L 30",
+    "algos": [
+      {
+        "alg": "R U R' U' R U R'",
+        "votes": 62
+      },
+      {
+        "alg": "F R' F' R F R' F' R",
+        "votes": 2
+      }
+    ]
+  },
+  {
+    "name": "F2L 31",
+    "algos": [
+      {
+        "alg": "U' R' F R F' R U' R'",
+        "votes": 61
+      },
+      {
+        "alg": "R U' R' y L' U2 L",
+        "votes": 13
+      }
+    ]
+  },
+  {
+    "name": "F2L 32",
+    "algos": [
+      {
+        "alg": "R U R' U' R U R' U' R U R'",
+        "votes": 66
+      },
+      {
+        "alg": "U R U' R' U R U' R' U R U' R'",
+        "votes": 22
+      }
+    ]
+  },
+  {
+    "name": "F2L 33",
+    "algos": [
+      {
+        "alg": "U' R U' R' U2 R U' R'",
+        "votes": 66
+      },
+      {
+        "alg": "U' R U' R' U R' F R F'",
+        "votes": 9
+      }
+    ]
+  },
+  {
+    "name": "F2L 34",
+    "algos": [
+      {
+        "alg": "U R U R' U2 R U R'",
+        "votes": 54
+      },
+      {
+        "alg": "U' R U2 R' U R U R'",
+        "votes": 17
+      }
+    ]
+  },
+  {
+    "name": "F2L 35",
+    "algos": [
+      {
+        "alg": "U' R U R' U F' U' F",
+        "votes": 45
+      },
+      {
+        "alg": "U2 R U R' F R' F' R",
+        "votes": 15
+      }
+    ]
+  },
+  {
+    "name": "F2L 36",
+    "algos": [
+      {
+        "alg": "U2 R' F R F' U2 R U R'",
+        "votes": 44
+      },
+      {
+        "alg": "U F' U' F U' R U R'",
+        "votes": 26
+      }
+    ]
+  },
+  {
+    "name": "F2L 37",
+    "algos": [
+      {
+        "alg": "R2 U2 F R2 F' U2 R' U R'",
+        "votes": 78
+      },
+      {
+        "alg": "R U' R' d R' U2 R U2 R' U R",
+        "votes": 23
+      }
+    ]
+  },
+  {
+    "name": "F2L 38",
+    "algos": [
+      {
+        "alg": "R U R' U' R U2 R' U' R U R'",
+        "votes": 60
+      },
+      {
+        "alg": "R U' R' U' R U R' U2 R U' R'",
+        "votes": 18
+      }
+    ]
+  },
+  {
+    "name": "F2L 39",
+    "algos": [
+      {
+        "alg": "R U R' U2 R U' R' U R U R'",
+        "votes": 51
+      },
+      {
+        "alg": "R U' R' U R U2 R' U R U' R'",
+        "votes": 19
+      }
+    ]
+  },
+  {
+    "name": "F2L 40",
+    "algos": [
+      {
+        "alg": "R U' R' F R U R' U' F' R U' R'",
+        "votes": 47
+      },
+      {
+        "alg": "r U' r' U2 r U r' R U R'",
+        "votes": 18
+      }
+    ]
+  },
+  {
+    "name": "F2L 41",
+    "algos": [
+      {
+        "alg": "R U R' U' R U' R' U2 y' R' U' R",
+        "votes": 51
+      },
+      {
+        "alg": "R U F R U R' U' F' R'",
+        "votes": 27
+      }
+    ]
+  }
+]

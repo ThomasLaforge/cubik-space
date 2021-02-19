@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Aa",
+    "algos": [
+      {
+        "alg": "l' U R' D2 R U' R' D2 R2",
+        "votes": 606
+      },
+      {
+        "alg": "x R' U R' D2 R U' R' D2 R2",
+        "votes": 428
+      },
+      {
+        "alg": "R' F R' B2 R F' R' B2 R2",
+        "votes": 120
+      },
+      {
+        "alg": "y x' R2 D2 R' U' R D2 R' U R' x",
+        "votes": 54
+      }
+    ]
+  },
+  {
+    "name": "Ab",
+    "algos": [
+      {
+        "alg": "l' R' D2 R U R' D2 R U' R x'",
+        "votes": 322
+      },
+      {
+        "alg": "x R2 D2 R U R' D2 R U' R x'",
+        "votes": 316
+      },
+      {
+        "alg": "y x' R U' R D2 R' U R D2 R2 x",
+        "votes": 100
+      },
+      {
+        "alg": "y' x L U' L D2 L' U L D2 L2",
+        "votes": 52
+      }
+    ]
+  },
+  {
+    "name": "E",
+    "algos": [
+      {
+        "alg": "y x' R U' R' D R U R' D' R U R' D R U' R' D' x",
+        "votes": 634
+      },
+      {
+        "alg": "R2 U R' U' y R U R' U' R U R' U' R U R' y' R U' R2",
+        "votes": 116
+      }
+    ]
+  },
+  {
+    "name": "F",
+    "algos": [
+      {
+        "alg": "y R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+        "votes": 648
+      },
+      {
+        "alg": "y2 R' U2 R' d' R' F' R2 U' R' U R' F R U' F",
+        "votes": 76
+      }
+    ]
+  },
+  {
+    "name": "Ga",
+    "algos": [
+      {
+        "alg": "R2 u R' U R' U' R u' R2 y' R' U R",
+        "votes": 397
+      },
+      {
+        "alg": "R2 U R' U R' U' R U' R2 D U' R' U R D'",
+        "votes": 297
+      },
+      {
+        "alg": "R2 u R' U R' U' R u' R2 F' U F",
+        "votes": 52
+      }
+    ]
+  },
+  {
+    "name": "Gb",
+    "algos": [
+      {
+        "alg": "R' U' R y R2 u R' U R U' R u' R2",
+        "votes": 280
+      },
+      {
+        "alg": "R' U' R U D' R2 U R' U R U' R U' R2 D",
+        "votes": 239
+      },
+      {
+        "alg": "y F' U' F R2 u R' U R U' R u' R2",
+        "votes": 119
+      }
+    ]
+  },
+  {
+    "name": "Gc",
+    "algos": [
+      {
+        "alg": "R2 u' R U' R U R' u R2 y R U' R'",
+        "votes": 264
+      },
+      {
+        "alg": "y2 R2 F2 R U2 R U2 R' F R U R' U' R' F R2",
+        "votes": 212
+      },
+      {
+        "alg": "R2 U' R U' R U R' U R2 D' U R U' R' D",
+        "votes": 143
+      }
+    ]
+  },
+  {
+    "name": "Gd",
+    "algos": [
+      {
+        "alg": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+        "votes": 292
+      },
+      {
+        "alg": "R U R' y' R2 u' R U' R' U R' u R2",
+        "votes": 278
+      },
+      {
+        "alg": "D' R U R' U' D R2 U' R U' R' U R' U R2",
+        "votes": 55
+      }
+    ]
+  },
+  {
+    "name": "H",
+    "algos": [
+      {
+        "alg": "M2 U M2 U2 M2 U M2",
+        "votes": 492
+      },
+      {
+        "alg": "M2 U' M2 U2 M2 U' M2",
+        "votes": 355
+      },
+      {
+        "alg": "R2 U2 R U2 R2 U2 R2 U2 R U2 R2",
+        "votes": 68
+      }
+    ]
+  },
+  {
+    "name": "Ja",
+    "algos": [
+      {
+        "alg": "y R' U L' U2 R U' R' U2 R L",
+        "votes": 422
+      },
+      {
+        "alg": "L' U' L F L' U' L U L F' L2 U L",
+        "votes": 172
+      },
+      {
+        "alg": "y2 x R2 F R F' R U2 r' U r U2 x'",
+        "votes": 101
+      },
+      {
+        "alg": "y2 R' U2 R U R' U2 L U' R U L'",
+        "votes": 59
+      }
+    ]
+  },
+  {
+    "name": "Jb",
+    "algos": [
+      {
+        "alg": "R U R' F' R U R' U' R' F R2 U' R'",
+        "votes": 680
+      },
+      {
+        "alg": "R U2 R' U' R U2 L' U R' U' L",
+        "votes": 46
+      }
+    ]
+  },
+  {
+    "name": "Na",
+    "algos": [
+      {
+        "alg": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+        "votes": 485
+      },
+      {
+        "alg": "L U' R U2 L' U R' L U' R U2 L' U R'",
+        "votes": 86
+      },
+      {
+        "alg": "z U R' D R2 U' R D' U R' D R2 U' R D' z'",
+        "votes": 70
+      }
+    ]
+  },
+  {
+    "name": "Nb",
+    "algos": [
+      {
+        "alg": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+        "votes": 266
+      },
+      {
+        "alg": "R' U L' U2 R U' L R' U L' U2 R U' L",
+        "votes": 230
+      },
+      {
+        "alg": "z D' R U' R2 D R' U D' R U' R2 D R' U z'",
+        "votes": 53
+      }
+    ]
+  },
+  {
+    "name": "Ra",
+    "algos": [
+      {
+        "alg": "y R U R' F' R U2 R' U2 R' F R U R U2 R'",
+        "votes": 298
+      },
+      {
+        "alg": "L U2 L' U2 L F' L' U' L U L F L2",
+        "votes": 209
+      },
+      {
+        "alg": "y R U' R' U' R U R D R' U' R D' R' U2 R'",
+        "votes": 185
+      }
+    ]
+  },
+  {
+    "name": "Rb",
+    "algos": [
+      {
+        "alg": "R' U2 R U2 R' F R U R' U' R' F' R2",
+        "votes": 552
+      },
+      {
+        "alg": "R' U2 R' D' R U' R' D R U R U' R' U' R",
+        "votes": 54
+      }
+    ]
+  },
+  {
+    "name": "T",
+    "algos": [
+      {
+        "alg": "R U R' U' R' F R2 U' R' U' R U R' F'",
+        "votes": 770
+      },
+      {
+        "alg": "R U R' U' R' F R2 U' R' U F' L' U L",
+        "votes": 40
+      }
+    ]
+  },
+  {
+    "name": "Ua",
+    "algos": [
+      {
+        "alg": "y2 R U' R U R U R U' R' U' R2",
+        "votes": 379
+      },
+      {
+        "alg": "R2 U' R' U' R U R U R U' R",
+        "votes": 249
+      },
+      {
+        "alg": "y2 M2 U M U2 M' U M2",
+        "votes": 206
+      },
+      {
+        "alg": "M2 U M' U2 M U M2",
+        "votes": 149
+      }
+    ]
+  },
+  {
+    "name": "Ub",
+    "algos": [
+      {
+        "alg": "y2 R2 U R U R' U' R' U' R' U R'",
+        "votes": 287
+      },
+      {
+        "alg": "R' U R' U' R' U' R' U R U R2",
+        "votes": 242
+      },
+      {
+        "alg": "y2 M2 U' M U2 M' U' M2",
+        "votes": 238
+      },
+      {
+        "alg": "M2 U' M' U2 M U' M2",
+        "votes": 112
+      }
+    ]
+  },
+  {
+    "name": "V",
+    "algos": [
+      {
+        "alg": "R' U R' d' R' F' R2 U' R' U R' F R F",
+        "votes": 395
+      },
+      {
+        "alg": "R' U R' U' y R' F' R2 U' R' U R' F R F",
+        "votes": 168
+      },
+      {
+        "alg": "z D' R2 D R2 U R' D' R U' R U R' D R U'",
+        "votes": 72
+      },
+      {
+        "alg": "R U2 R' D R U' R U' R U R2 D R' U' R D2",
+        "votes": 59
+      },
+      {
+        "alg": "R' U R' U' R D' R' D R' U D' R2 U' R2 D R2",
+        "votes": 54
+      }
+    ]
+  },
+  {
+    "name": "Y",
+    "algos": [
+      {
+        "alg": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+        "votes": 672
+      },
+      {
+        "alg": "F R' F R2 U' R' U' R U R' F' R U R' U' F'",
+        "votes": 48
+      }
+    ]
+  },
+  {
+    "name": "Z",
+    "algos": [
+      {
+        "alg": "M2 U M2 U M' U2 M2 U2 M'",
+        "votes": 423
+      },
+      {
+        "alg": "y M2 U' M2 U' M' U2 M2 U2 M'",
+        "votes": 214
+      },
+      {
+        "alg": "M' U' M2 U' M2 U' M' U2 M2",
+        "votes": 101
+      },
+      {
+        "alg": "y R' U' R U' R U R U' R' U R U R2 U' R'",
+        "votes": 53
+      }
+    ]
+  }
+]
