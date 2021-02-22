@@ -7,16 +7,18 @@ import {
 } from "react-router-dom";
 
 import Home from './Pages/Home/index'
+import Algos from './Pages/Algos/index'
 
 function App() {
   return (
     <Router>
         <Switch>
-          {/* <Route path="/about">
-            <About />
-          </Route> */}
-          <Route path="/">
+          <Route path="/algos">
             <Home />
+          </Route>
+          <Route path="/">
+            <Algos />
+            {/* <Home /> */}
           </Route>
         </Switch>
     </Router>

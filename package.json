@@ -1,8 +1,8 @@
 {
   "name": "cube-space",
   "productName": "cube-space",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "0.1.0",
+  "description": "Electron Rubik's cube app",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -19,6 +19,17 @@
   "license": "MIT",
   "config": {
     "forge": {
+      "publishers": [
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "ThomasLaforge",
+              "name": "cube-space"
+            }
+          }
+        }
+      ],
       "packagerConfig": {},
       "makers": [
         {
@@ -56,7 +67,9 @@
                   "name": "main_window"
                 }
               ]
-            }
+            },
+            "port": 3001,
+            "loggerPort": 9001
           }
         ]
       ]
@@ -73,6 +86,7 @@
     "@types/electron-store": "^3.2.0",
     "@types/puppeteer": "^5.4.3",
     "@types/react-router-dom": "^5.1.7",
+    "@types/reactstrap": "^8.7.2",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "css-loader": "^4.2.1",
@@ -88,6 +102,7 @@
   "dependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "custom-electron-titlebar": "^3.2.6",
     "dayjs": "^1.10.4",
     "electron-squirrel-startup": "^1.0.0",
     "electron-store": "^7.0.1",
@@ -97,6 +112,7 @@
     "react-hot-loader": "^4.13.0",
     "react-keyboard-event-handler": "^1.5.4",
     "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.9.0",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1",
     "sr-scrambler": "^1.0.1"

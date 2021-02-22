@@ -1,0 +1,42 @@
+.algo-collection {
+    display: flex;
+    flex-direction: column;
+
+    .collection-title {
+        font-size: 30px;
+    }
+    .collection-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .collection-elt {
+            width: 400px;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+
+            border: 1px solid whitesmoke;
+            border-radius: 1px;
+            margin-bottom: 20px;
+            .collection-elt-name {
+            }
+            .collection-elt-algo-list {
+                display: flex;
+                flex-direction: column;
+                .algo-list-elt {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .algo-string {
+                        width: 80%;
+                    }
+                    .algo-votes {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+}

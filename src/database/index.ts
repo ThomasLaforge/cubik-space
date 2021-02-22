@@ -4,26 +4,31 @@ import Store from 'electron-store';
 
 class Database {
     constructor(
+        protected dbName: string,
         private db = new Store()
     ){}
 
-    getElement(key: string, defaultValue: any){
-        return (this.db.get('times') || defaultValue)
+    getElement(defaultValue: any){
+        return (this.db.get(this.dbName) || defaultValue)
     }
 
-    setElement(key: string, data: any){
-        this.db.set(key, data)
+    setElement(data: any){
+        this.db.set(this.dbName, data)
     }
 }
 
 class TimeDatabase extends Database {
+    constructor(){
+        super('times')
+    }
 
+    // alias
     setTimes(data: TimeDB[]){
-        this.setElement('times', data)
+        this.setElement(data)
     }
 
     getTimes(){
-        return this.getElement('times', []) as TimeDB[]
+        return this.getElement([]) as TimeDB[]
     }
 
     getLastTimes(nb = 5){
@@ -31,4 +36,70 @@ class TimeDatabase extends Database {
     }
 }
 
+
+interface AlgoState {
+    id: number,
+    choice: number[]
+}
+interface AlgoTypeState {
+    known: AlgoState[],
+    wip: AlgoState[]
+}
+
+const defaultAlgoState: AlgoTypeState = {
+    known: [],
+    wip: []
+}
+
+type AlgosStates = {[key: string]: AlgoTypeState}
+
+const AlgoTypes = ['oll', 'pll', 'f2l']
+let defaultAlgosStates: AlgosStates = {}
+AlgoTypes.forEach(t => {
+    defaultAlgosStates[t] = defaultAlgoState
+})
+class AlgoStatesDB extends Database {
+
+    constructor(){
+        super('algo-states')
+    }
+
+    getStates() : AlgosStates {
+        return this.getElement(defaultAlgosStates)
+    }
+
+    setStates(data: AlgosStates){
+        this.setElement(data)
+    }
+
+    getOllState(){
+        const data = this.getStates()
+        return data.oll
+    }
+    
+    getF2lState(){
+        const data = this.getStates()
+        return data.f2l
+    }
+    
+    getPllState(){
+        const data = this.getStates()
+        return data.pll
+    }
+}
+
 export const timeDB = new TimeDatabase()
+export const AlgosDB = new AlgoStatesDB()
+
+export interface AlgosJsonCollectionElt {
+    name: string,
+    algos: {
+        alg: string,
+        votes: number
+    }[]
+}
+export type AlgosJsonCollection = AlgosJsonCollectionElt[]
+
+export const ollCollection = require('./algos/oll.json') as AlgosJsonCollection
+export const pllCollection = require('./algos/pll.json') as AlgosJsonCollection
+export const f2lCollection = require('./algos/f2l.json') as AlgosJsonCollection

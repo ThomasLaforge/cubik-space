@@ -2,6 +2,7 @@ import React from "react"
 
 export const UP_THEME = 'obwrgy'
 export const DOWN_THEME = 'rgwoby'
+export const OLL_THEME = 'yyyyyy'
 
 interface VCProps {
     scramble?: string,
