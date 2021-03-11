@@ -1,0 +1,3 @@
+x or [r] - a rotation of the entire cube as if doing an R turn.
+y or [u] - a rotation of the entire cube as if doing a U turn.
+z or [f] - a rotation of the entire cube as if doing an F turn.
